@@ -1,0 +1,179 @@
+/*Fonts Declarations*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/*Global CSS*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #F8FAFB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4{
+  font-weight: 600;  
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  transition: 0.4s all ease-out; 
+}
+
+h1,
+h2 {
+  font-size: 24px; 
+}
+
+figure {
+  margin: 0;
+}
+.custom-container {
+  width: 90%;
+}
+
+.card figure{
+  overflow: hidden;
+  cursor: pointer;
+}
+.card-img-top {
+ 
+  transition: .4s all ease-out;
+}
+
+.card-img-top:hover {
+transform: scale(1.1);
+}
+
+.card-title {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+/*Navbar CSS*/
+
+.navbar {
+  background: transparent;
+}
+.nav-active {
+  background: white;
+}
+.nav-link{
+  position: relative;
+  font-weight: 400;
+  padding: 0 .8rem;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.navbar-links .nav-link:before{
+  position: absolute;
+  content: " ";
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.4s all ease-out;
+}
+.navbar-links .nav-link:hover:before {
+ width: 100%;
+ color: white;
+}
+
+.nav-active .nav-link{
+  color:#05b2c5;
+}
+
+.navbar-nav .nav-link {
+ padding-right: 1.5rem
+}
+
+.nav-item:active {
+  color: black;
+}
+
+
+.nav-item .btn.btn-primary,
+.nav-link{
+  color:white;
+  font-size: 14px;
+}
+
+
+.navbar-toggler {
+  border-color: black;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  height: 9px;
+  border-bottom: 2px solid black;  
+}
+.timer-icon {
+	position: relative;
+}
+.timer-icon::before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  bottom:0;  
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background: url('../images/icons/timer.svg')no-repeat;
+}
+
+/*Sections CSS*/
+.heading {
+  color: #071f3a;
+  font: Semibold 20px/30px Open Sans;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+footer {
+  background: #000;
+}
+footer h4 {
+  color: white;
+  font-size: 16px
+}
+
+footer p, 
+.footer-links a {
+  color: #868686;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links a:hover{
+  color: #05b2c5;
+}
+
+.copy {
+  border-top:1px solid #868686;
+}
+.scroll-up {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  background: #000;
+  color: #05b2c5;
+  font-size: 20px; 
+}
+.scroll-up:before{
+ content: ' \2191';
+ padding: 5px 10px;
+}

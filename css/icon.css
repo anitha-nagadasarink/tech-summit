@@ -1,0 +1,343 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/dist/icomoon.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="iconmoon-"], [class*=" iconmoon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconmoon-arrows_info:before {
+  content: "\e634"
+}
+
+.iconmoon-attachments:before {
+  content: "\e931"
+}
+
+.iconmoon-bargraph:before {
+  content: "\e932"
+}
+
+.iconmoon-basic_cup:before {
+  content: "\e6a4"
+}
+
+.iconmoon-basic_elaboration_cloud_remove:before {
+  content: "\e6d6"
+}
+
+.iconmoon-basic_geolocalize-01:before {
+  content: "\e743"
+}
+
+.iconmoon-basic_paperplane:before {
+  content: "\e76a"
+}
+
+.iconmoon-basic_star:before {
+  content: "\e78a"
+}
+
+.iconmoon-beaker:before {
+  content: "\e934"
+}
+
+.iconmoon-bike:before {
+  content: "\e935"
+}
+
+.iconmoon-browser2:before {
+  content: "\e938"
+}
+
+.iconmoon-calendar:before {
+  content: "\e939"
+}
+
+.iconmoon-caution:before {
+  content: "\e93b"
+}
+
+.iconmoon-chat:before {
+  content: "\e93c"
+}
+
+.iconmoon-clock2:before {
+  content: "\e93f"
+}
+
+.iconmoon-cloud:before {
+  content: "\e940"
+}
+
+.iconmoon-compass:before {
+  content: "\e941"
+}
+
+.iconmoon-database:before {
+  content: "\e8ea"
+}
+
+.iconmoon-ecommerce_bag_check:before {
+  content: "\e7a0"
+}
+
+.iconmoon-ecommerce_diamond:before {
+  content: "\e7c5"
+}
+
+.iconmoon-gears:before {
+  content: "\e94e"
+}
+
+.iconmoon-genius:before {
+  content: "\e94f"
+}
+
+.iconmoon-happy:before {
+  content: "\e955"
+}
+
+.iconmoon-key:before {
+  content: "\e95a"
+}
+
+.iconmoon-layers:before {
+  content: "\e95c"
+}
+
+.iconmoon-lifesaver:before {
+  content: "\e95d"
+}
+
+.iconmoon-linegraph:before {
+  content: "\e95f"
+}
+
+.iconmoon-link:before {
+  content: "\e904"
+}
+
+.iconmoon-lock:before {
+  content: "\e961"
+}
+
+.iconmoon-map-pin:before {
+  content: "\e963"
+}
+
+.iconmoon-megaphone:before {
+  content: "\e965"
+}
+
+.iconmoon-mic:before {
+  content: "\e966"
+}
+
+.iconmoon-multiple_paper:before {
+  content: "\e90b"
+}
+
+.iconmoon-phone:before {
+  content: "\e96d"
+}
+
+.iconmoon-presentation:before {
+  content: "\e971"
+}
+
+.iconmoon-scope:before {
+  content: "\e97e"
+}
+
+.iconmoon-user_comment:before {
+  content: "\e92b"
+}
+
+.iconmoon-arrows_exclamation:before {
+	content: "\e627";
+}
+
+.iconmoon-basic_elaboration_smartphone_noaccess:before {
+	content: "\e71d";
+}
+
+.iconmoon-basic_lightbulb:before {
+	content: "\e754";
+}
+
+.iconmoon-basic_lock_open:before {
+	content: "\e756";
+}
+
+.iconmoon-dashboard_meter:before {
+	content: "\e8e9";
+}
+
+.iconmoon-mustache:before {
+	content: "\e90c";
+}
+
+.iconmoon-remote:before {
+	content: "\e917";
+}
+
+.iconmoon-trophy:before {
+	content: "\e98a";
+}
+
+.iconmoon-arrows_circle_right:before {
+	content: "\e60f";
+}
+
+.iconmoon-arrows_circle_left:before {
+	content: "\e60b";
+}
+
+.iconmoon-apartment_building:before {
+	content: "\e8cc";
+}
+.iconmoon-backpack:before {
+	content: "\e8ce";
+}
+
+.iconmoon-basic_keyboard:before {
+	content: "\e751";
+}
+
+.iconmoon-basic_laptop:before {
+	content: "\e752";
+}
+
+.iconmoon-glass_juice:before {
+	content: "\e8f5";
+}
+
+.iconmoon-hot_dog:before {
+	content: "\e8fd";
+}
+
+.iconmoon-mail_envelope:before {
+	content: "\e909";
+}
+
+.iconmoon-music_microphone_old:before {
+	content: "\e7ff";
+}
+
+.iconmoon-music_recordplayer:before {
+	content: "\e80b";
+}
+
+.iconmoon-coverage:before {
+	content: "\e8e7";
+}
+
+.iconmoon-traget:before {
+	content: "\e989";
+}
+
+.iconmoon-hourglass:before {
+	content: "\e959";
+}
+
+.iconmoon-chair_sofa:before {
+	content: "\e8dd";
+}
+
+.iconmoon-lightbulb:before {
+	content: "\e95e";
+}
+
+.iconmoon-global:before {
+	content: "\e951";
+}
+
+.iconmoon-download:before {
+	content: "\e946";
+}
+
+.iconmoon-basic_elaboration_cloud_refresh:before {
+	content: "\e6d5";
+}
+
+.iconmoon-video:before {
+	content: "\e98e";
+}
+
+.iconmoon-ecommerce_cart_content:before {
+	content: "\e7b9";
+}
+
+.iconmoon-heart2:before {
+	content: "\e957";
+}
+
+.iconmoon-ecommerce_bath:before {
+	content: "\e7b6";
+}
+
+.iconmoon-basic_joypad:before {
+	content: "\e74f";
+}
+
+.iconmoon-basic_share:before {
+	content: "\e77d";
+}
+
+.iconmoon-equalizer:before {
+	content: "\e8f2";
+}
+
+.iconmoon-basic_server2:before {
+	content: "\e77b";
+}
+
+.iconmoon-book-open:before {
+	content: "\e936";
+}
+
+.iconmoon-arrows_glide_vertical:before {
+	content: "\e62f";
+}
+
+.iconmoon-refresh2:before {
+	content: "\e979";
+}
+
+.iconmoon-magic_wand:before {
+	content: "\e907";
+}
+
+.iconmoon-basic_magnifier:before {
+	content: "\e75b";
+}
+
+.iconmoon-briefcase:before {
+	content: "\e8d2";
+}
+
+.iconmoon-basic_todolist_pencil:before {
+	content: "\e792";
+}
+
+.iconmoon-wallet:before {
+	content: "\e98f";
+}
+
+.iconmoon-profile-female:before {
+	content: "\e974";
+}
