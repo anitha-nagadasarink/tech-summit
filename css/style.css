@@ -70,7 +70,10 @@ transform: scale(1.1);
 .nav-link:hover{
   color: white;
 }
-
+.navbar-brand img, 
+.navbar-links .nav-link:before{
+   transition: 0.4s all ease-out;
+}
 .navbar-links .nav-link:before{
   position: absolute;
   content: " ";
@@ -78,12 +81,19 @@ transform: scale(1.1);
   left: 0;
   width: 0;
   height: 2px;
-  background: white;
-  transition: 0.4s all ease-out;
+  background: white; 
 }
 .navbar-links .nav-link:hover:before {
  width: 100%;
  color: white;
+}
+
+.navbar-brand img{ 
+  width: 100px;
+}
+
+.nav-active .navbar-brand img{
+ width: 80px;
 }
 
 .nav-active .nav-link{

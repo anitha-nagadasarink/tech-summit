@@ -4,8 +4,7 @@
 	<title>Tech Conference Sumit 2020</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initail-scale=1.0"/>
-	 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
-      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
 	 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>    
@@ -13,8 +12,7 @@
     <nav class="navbar navbar-expand-lg  fixed-top">
       <div class="container-fluid custom-container">
       	<a class="navbar-brand" href="./">
-      	 <!-- <img src="images/logo.png" alt="Logo"/> -->
-         Tech Summit
+      	 <img src="images/logo.png" alt="Logo"/>       
       	</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarToggler" aria-controls="navBarToggler" aria-expanded="false" aria-label="Toggle Navigation">
       	<span class="navbar-toggler-icon"></span>
@@ -294,53 +292,7 @@
 <a href="#" class="scroll-up rounded-circle"></a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
-<script src="js/bootstrap.js"></script> 
-<script type="text/javascript">
-  $(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(document).scrollTop() > 50) {
-      $(".navbar").addClass("nav-active");
-    } else {
-      $(".navbar").removeClass("nav-active");
-    }
-  });
-   $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('.scroll-up').fadeIn();
-        } else {
-            $('.scroll-up').fadeOut();
-        }
-    });
-
-    $('.scrollup').click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 600);
-        return false;
-    });
-
-});
-  var countDownDate = new Date("Apr 30, 2020 15:37:25").getTime();
-  var x = setInterval(function() {
-  var now = new Date().getTime();  
-  var distance = countDownDate - now;  
-
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
- 
-  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "EXPIRED";
-  }
-}, 1000);
- 
-</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+<script src="js/main.js"></script> 
 </body>
 </html>
